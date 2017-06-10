@@ -1,0 +1,25 @@
+{
+  "name": "awz/wechat-notice",
+  "description": "基于wechat的消息通知服务",
+  "keywords": [
+    "laravel",
+    "notice",
+    "wechat"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Awz",
+      "email": "awz@awz.cn"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "overtrue/WeChat": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Awz\\Notice\\": "src/"
+    }
+  }
+}
