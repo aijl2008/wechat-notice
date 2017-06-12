@@ -1,9 +1,10 @@
 <?php
 return [
+    'debug' => true ,
     'app_id' => 'wx3a0330dba902ce27' ,
-    'secret' => 'c5e857599d78db093b15f6e32ac2224f' ,
+    'secret' => '' ,
     'token' => 'noteawzcn' ,
-    'aes_key' => 'g3nxwiZoavFYRBlNK3jdj2DW6E6MxHdx8hI1kqflyDI' ,
+    'aes_key' => '' ,
     'log' => [
         'level' => 'debug' ,
         'file' => storage_path ( 'logs/wechat.log' ) ,
